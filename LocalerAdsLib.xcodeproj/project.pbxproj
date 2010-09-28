@@ -6,71 +6,27 @@
 	objectVersion = 45;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		ACDFC9880FD7933000D53D9C /* build-all */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = ACDFC9930FD7934200D53D9C /* Build configuration list for PBXAggregateTarget "build-all" */;
-			buildPhases = (
-				ACDFC9870FD7933000D53D9C /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = "build-all";
-			productName = "build-all";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		AA747D9F0F9514B9006C5449 /* LocalerAdsLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LocalerAdsLib_Prefix.pch */; };
-		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		AC75C0A00FD82EC90067A697 /* LocalAdsBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC75C09E0FD82EC90067A697 /* LocalAdsBarController.h */; };
-		AC75C0A10FD82EC90067A697 /* LocalAdsBarControler.m in Sources */ = {isa = PBXBuildFile; fileRef = AC75C09F0FD82EC90067A697 /* LocalAdsBarControler.m */; };
-		AC75C0A20FD82F1E0067A697 /* LocalerAdsLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LocalerAdsLib_Prefix.pch */; };
-		AC75C0A30FD82F290067A697 /* LocalAdsBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC75C09E0FD82EC90067A697 /* LocalAdsBarController.h */; };
-		AC75C0A40FD82F290067A697 /* LocalerAdsLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LocalerAdsLib_Prefix.pch */; };
-		AC75C0A50FD82F2E0067A697 /* LocalAdsBarControler.m in Sources */ = {isa = PBXBuildFile; fileRef = AC75C09F0FD82EC90067A697 /* LocalAdsBarControler.m */; };
-		AC75C0A70FD82F400067A697 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC75C0A60FD82F400067A697 /* CoreFoundation.framework */; };
-		AC75C0A90FD82F400067A697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC75C0A80FD82F400067A697 /* UIKit.framework */; };
-		AC75C0AE0FD82F550067A697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		AC75C0AF0FD82F550067A697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC75C0A80FD82F400067A697 /* UIKit.framework */; };
+		AD7F168712524DD2007A7CEB /* LocalAdsBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC75C09E0FD82EC90067A697 /* LocalAdsBarController.h */; };
+		AD7F16DA12524DDA007A7CEB /* LocalerAdsLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LocalerAdsLib_Prefix.pch */; };
+		AD7F16DB12524DDE007A7CEB /* LocalAdsBarControler.m in Sources */ = {isa = PBXBuildFile; fileRef = AC75C09F0FD82EC90067A697 /* LocalAdsBarControler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA747D9E0F9514B9006C5449 /* LocalerAdsLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalerAdsLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
-		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AC75C07A0FD82B7F0067A697 /* libLocalerAdsLib sim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLocalerAdsLib sim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC75C0810FD82B9E0067A697 /* libLocalerAdsLib dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLocalerAdsLib dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC75C09E0FD82EC90067A697 /* LocalAdsBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalAdsBarController.h; sourceTree = "<group>"; };
 		AC75C09F0FD82EC90067A697 /* LocalAdsBarControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalAdsBarControler.m; sourceTree = "<group>"; };
-		AC75C0A60FD82F400067A697 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		AC75C0A80FD82F400067A697 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libLocalerAdsLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLocalerAdsLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7F163512524A65007A7CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD7F166012524A80007A7CEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD7F168112524D51007A7CEB /* libStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libStaticLibrary.a; path = "build/Release-iphoneos/libStaticLibrary.a"; sourceTree = "<group>"; };
+		AD7F16E712524E4B007A7CEB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC75C0780FD82B7F0067A697 /* Frameworks */ = {
+		AD7F167F12524D51007A7CEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC75C0A70FD82F400067A697 /* CoreFoundation.framework in Frameworks */,
-				AC75C0A90FD82F400067A697 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC75C07F0FD82B9E0067A697 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC75C0AE0FD82F550067A697 /* Foundation.framework in Frameworks */,
-				AC75C0AF0FD82F550067A697 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AAC07C0554694100DB518D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +36,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libLocalerAdsLib.a */,
-				AC75C07A0FD82B7F0067A697 /* libLocalerAdsLib sim.a */,
-				AC75C0810FD82B9E0067A697 /* libLocalerAdsLib dev.a */,
+				AD7F168112524D51007A7CEB /* libStaticLibrary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,14 +44,11 @@
 		0867D691FE84028FC02AAC07 /* LocalerAdsLib */ = {
 			isa = PBXGroup;
 			children = (
-				AC75C09E0FD82EC90067A697 /* LocalAdsBarController.h */,
-				AC75C09F0FD82EC90067A697 /* LocalAdsBarControler.m */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				AC75C0A60FD82F400067A697 /* CoreFoundation.framework */,
-				AC75C0A80FD82F400067A697 /* UIKit.framework */,
+				AD7F16E712524E4B007A7CEB /* README */,
 			);
 			name = LocalerAdsLib;
 			sourceTree = "<group>";
@@ -105,7 +56,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				AD7F163512524A65007A7CEB /* Foundation.framework */,
+				AD7F166012524A80007A7CEB /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,6 +65,8 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AC75C09F0FD82EC90067A697 /* LocalAdsBarControler.m */,
+				AC75C09E0FD82EC90067A697 /* LocalAdsBarController.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -128,84 +82,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AC75C0760FD82B7F0067A697 /* Headers */ = {
+		AD7F167D12524D51007A7CEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC75C0A20FD82F1E0067A697 /* LocalerAdsLib_Prefix.pch in Headers */,
-				AC75C0A00FD82EC90067A697 /* LocalAdsBarController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC75C07D0FD82B9E0067A697 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC75C0A30FD82F290067A697 /* LocalAdsBarController.h in Headers */,
-				AC75C0A40FD82F290067A697 /* LocalerAdsLib_Prefix.pch in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AAC07A0554694100DB518D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA747D9F0F9514B9006C5449 /* LocalerAdsLib_Prefix.pch in Headers */,
+				AD7F16DA12524DDA007A7CEB /* LocalerAdsLib_Prefix.pch in Headers */,
+				AD7F168712524DD2007A7CEB /* LocalAdsBarController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AC75C0790FD82B7F0067A697 /* LocalerAdsLib sim */ = {
+		AD7F168012524D51007A7CEB /* StaticLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC75C08A0FD82BC90067A697 /* Build configuration list for PBXNativeTarget "LocalerAdsLib sim" */;
+			buildConfigurationList = AD7F168512524D5A007A7CEB /* Build configuration list for PBXNativeTarget "StaticLibrary" */;
 			buildPhases = (
-				AC75C0760FD82B7F0067A697 /* Headers */,
-				AC75C0770FD82B7F0067A697 /* Sources */,
-				AC75C0780FD82B7F0067A697 /* Frameworks */,
+				AD7F167D12524D51007A7CEB /* Headers */,
+				AD7F167E12524D51007A7CEB /* Sources */,
+				AD7F167F12524D51007A7CEB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "LocalerAdsLib sim";
-			productName = "LocalerAdsLib sim";
-			productReference = AC75C07A0FD82B7F0067A697 /* libLocalerAdsLib sim.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AC75C0800FD82B9E0067A697 /* LocalerAdsLib dev */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC75C08B0FD82BC90067A697 /* Build configuration list for PBXNativeTarget "LocalerAdsLib dev" */;
-			buildPhases = (
-				AC75C07D0FD82B9E0067A697 /* Headers */,
-				AC75C07E0FD82B9E0067A697 /* Sources */,
-				AC75C07F0FD82B9E0067A697 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LocalerAdsLib dev";
-			productName = "LocalerAdsLib dev";
-			productReference = AC75C0810FD82B9E0067A697 /* libLocalerAdsLib dev.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D2AAC07D0554694100DB518D /* LocalerAdsLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LocalerAdsLib" */;
-			buildPhases = (
-				D2AAC07A0554694100DB518D /* Headers */,
-				D2AAC07B0554694100DB518D /* Sources */,
-				D2AAC07C0554694100DB518D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LocalerAdsLib;
-			productName = LocalerAdsLib;
-			productReference = D2AAC07E0554694100DB518D /* libLocalerAdsLib.a */;
+			name = StaticLibrary;
+			productName = StaticLibrary;
+			productReference = AD7F168112524D51007A7CEB /* libStaticLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -215,96 +118,36 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LocalerAdsLib" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* LocalerAdsLib */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* LocalerAdsLib */,
-				ACDFC9880FD7933000D53D9C /* build-all */,
-				AC75C0790FD82B7F0067A697 /* LocalerAdsLib sim */,
-				AC75C0800FD82B9E0067A697 /* LocalerAdsLib dev */,
+				AD7F168012524D51007A7CEB /* StaticLibrary */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		ACDFC9870FD7933000D53D9C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here\n# remove existing product lib file, just in case\nrm -rf build/${BUILD_STYLE}-iphoneos/libLocalerAdsLib-${BUILD_STYLE}.a\n\n# combine lib files for various platforms into one\nlipo -create \"build/${BUILD_STYLE}-iphonesimulator/libLocalerAdsLib sim.a\" \"build/${BUILD_STYLE}-iphoneos/libLocalerAdsLib dev.a\" -output build/${BUILD_STYLE}-iphoneos/libLocalerAdsLib-${BUILD_STYLE}.a\nexit 0";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		AC75C0770FD82B7F0067A697 /* Sources */ = {
+		AD7F167E12524D51007A7CEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC75C0A10FD82EC90067A697 /* LocalAdsBarControler.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC75C07E0FD82B9E0067A697 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC75C0A50FD82F2E0067A697 /* LocalAdsBarControler.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AAC07B0554694100DB518D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AD7F16DB12524DDE007A7CEB /* LocalAdsBarControler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1DEB921F08733DC00010E9CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/LocalerAdsLib.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = LocalerAdsLib_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = LocalerAdsLib;
-			};
-			name = Debug;
-		};
-		1DEB922008733DC00010E9CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/LocalerAdsLib.dst;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = LocalerAdsLib_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = LocalerAdsLib;
-			};
-			name = Release;
-		};
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -316,7 +159,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.1;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -329,11 +172,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.1;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};
-		AC75C07B0FD82B800067A697 /* Debug */ = {
+		AD7F168212524D52007A7CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,12 +184,11 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-				PRODUCT_NAME = "LocalerAdsLib sim";
-				SDKROOT = iphonesimulator2.1;
+				PRODUCT_NAME = StaticLibrary;
 			};
 			name = Debug;
 		};
-		AC75C07C0FD82B800067A697 /* Release */ = {
+		AD7F168312524D52007A7CEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,54 +196,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
-				PRODUCT_NAME = "LocalerAdsLib sim";
-				SDKROOT = iphonesimulator2.1;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		AC75C0820FD82B9E0067A697 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PREBINDING = NO;
-				PRODUCT_NAME = "LocalerAdsLib dev";
-			};
-			name = Debug;
-		};
-		AC75C0830FD82B9E0067A697 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PREBINDING = NO;
-				PRODUCT_NAME = "LocalerAdsLib dev";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		ACDFC9890FD7933000D53D9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "build-all";
-			};
-			name = Debug;
-		};
-		ACDFC98A0FD7933000D53D9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = "build-all";
+				PRODUCT_NAME = StaticLibrary;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -409,15 +204,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LocalerAdsLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DEB921F08733DC00010E9CD /* Debug */,
-				1DEB922008733DC00010E9CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LocalerAdsLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -427,29 +213,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC75C08A0FD82BC90067A697 /* Build configuration list for PBXNativeTarget "LocalerAdsLib sim" */ = {
+		AD7F168512524D5A007A7CEB /* Build configuration list for PBXNativeTarget "StaticLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC75C07B0FD82B800067A697 /* Debug */,
-				AC75C07C0FD82B800067A697 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC75C08B0FD82BC90067A697 /* Build configuration list for PBXNativeTarget "LocalerAdsLib dev" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC75C0820FD82B9E0067A697 /* Debug */,
-				AC75C0830FD82B9E0067A697 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACDFC9930FD7934200D53D9C /* Build configuration list for PBXAggregateTarget "build-all" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACDFC9890FD7933000D53D9C /* Debug */,
-				ACDFC98A0FD7933000D53D9C /* Release */,
+				AD7F168212524D52007A7CEB /* Debug */,
+				AD7F168312524D52007A7CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
