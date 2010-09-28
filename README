@@ -1,0 +1,8 @@
+This is a shared library to download and display Ads on the host iPhone application.
+
+To build
+1, create a target "Static Libarry"
+2, drag the .h and .pch to the new target -> Copy Headers
+3, drap the .m to the new target -> Compile Sources
+4, build
+The "libStaticLibrary.a" should be existing under the "products" group, reveal it in Finder.
